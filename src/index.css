@@ -50,6 +50,7 @@ input[type=checkbox], input[type=range] {
 .password {
     background: #273549;
     height: 1em;
+    line-height: 1em;
     padding: 7px 14px;
     width: 50%;
     border-radius: 5px;
