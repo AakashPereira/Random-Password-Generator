@@ -1,0 +1,32 @@
+<html lang="en">
+    <head>
+        <title>Random Password Generator</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="src/index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <h1>Generate a <div class="highlight">random password</div></h1>
+            <p class="grey-text">Never use an insecure password again.</p>
+            <div class="form-field">
+                <label for="length-el" id="length-label">Password Length</label>
+                5 <input type="range" min="5" max="15" id="length-el"> 15
+            </div>
+            <div class="form-field">
+                <label for="allow-char-el" id="char-label">Include Characters</label>
+                <input type="checkbox" id="allow-char-el" checked>
+            </div>
+            <button id="generate-pwd-btn">Generate Passwords</button>
+            <hr>
+            <div class="password-container">
+                <div id="password-one-el" role="button" aria-label="Click to copy password 1" tabindex="0" class="password highlight"></div>
+                <div id="password-two-el" role="button" aria-label="Click to copy password 2" tabindex="0" class="password highlight"></div>
+            </div>
+            <p id="status-msg-el" role="status"></p>
+        </div>
+        <script src="src/index.js"></script>
+    </body>
+</html>

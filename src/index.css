@@ -1,0 +1,85 @@
+body {
+    font-family: "Manrope", sans-serif;
+    margin: 0;
+    background: #1c1c1c;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background: #1f2937;
+    color: #FFF;
+    border-radius: 5px;
+    padding: 15px 30px;
+    width: 400px;
+}
+
+.grey-text {
+    color: #d5d4d8;
+}
+
+.highlight {
+    color: #4adf86;
+}
+
+.form-field {
+    margin: 10px 0;
+}
+
+#length-label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#char-label {
+    margin-right: 5px;
+}
+
+input[type=checkbox], input[type=range] {
+    accent-color: #4adf86;
+}
+
+.password-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+.password {
+    background: #273549;
+    height: 1em;
+    padding: 7px 14px;
+    width: 50%;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.password:hover {
+    color: #12b981;
+    transition: color 0.75s;
+}
+
+hr {
+    border-color: #2f3e53;
+}
+
+button {
+    background: #4adf86;
+    border: 0;
+    border-radius: 5px;
+    padding: 7px 14px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #12b981;
+    transition: background 0.75s;
+}
+
+#status-msg-el {
+    height: 1em;
+    padding: 5px;
+}
